@@ -1,0 +1,66 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive Font Scaling */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Make form elements full width on mobile */
+input,
+button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+/* For Auth card */
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.auth-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  width: 350px;
+}
+
+/* Responsive Typography */
+h1, h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+
+  .auth-card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .file-upload-container,
+  .history-container {
+    padding: 10px;
+  }
+}
