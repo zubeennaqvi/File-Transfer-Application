@@ -1,5 +1,7 @@
 # ⚡ Real-Time File Transfer App
 A full-stack real-time file sharing platform built with **React**, **Node.js**, **Socket.IO**, and **MongoDB**. It allows registered users to securely upload and send files to other online users with real-time updates and a beautiful animated UI.
+# frontend deployed at https://file-transfer-application.vercel.app/
+# backend deployed at https://file-transfer-application.onrender.com
 ## ✨ Features
 - 🔒 **User Authentication** (Login/Register)
 - 📁 **File Upload & Download** (real-time)
